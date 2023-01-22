@@ -7,6 +7,8 @@
 :root {
   --body-bg-color: #FAF7FD;
   --purple: #BB99DD;
+  --border: solid 3px #BB99DD;
+  --link-hover: #D8D8D8;
 }
 
 body * {
@@ -38,7 +40,7 @@ body {
 }
 
 .foto {
-  border: solid 3px var(--purple);
+  border: var(--border);
   border-radius: 50%;
 }
 
@@ -62,13 +64,13 @@ ul.links {
 
 ul.links li {
   padding: 12.5px 139.5px;
-  border: solid 3px var(--purple);
+  border: var(--border);
   border-radius: 4px;
   cursor: pointer;
 }
 
 ul.links li:hover {
-  background-color: #D8D8D8;
+  background-color: var(--link-hover);
 }
 
 ul.links li a {
@@ -78,6 +80,13 @@ ul.links li a {
 
 .social-links {
   width: 326px;
+  margin-top: 20px;
   display: flex;
   justify-content: space-around;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 360px;
+  }
 }
