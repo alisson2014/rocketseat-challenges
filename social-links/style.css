@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body * {
+  font-family: "Poppins", sans-serif;
+  color: var(--purple);
+}
+
+body {
+  background-color: var(--body-bg-color);
+}
+
+.container {
+  margin: 35px auto 0;
+  width: 540px;
+  padding: 10px;
+  border: 2px solid #F00;
+}
