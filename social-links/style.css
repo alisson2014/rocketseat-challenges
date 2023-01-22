@@ -24,7 +24,6 @@ body {
   margin: 35px auto 0;
   padding: 12px 0;
   width: 540px;
-  border: 2px solid #F00;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -83,6 +82,19 @@ ul.links li a {
   margin-top: 20px;
   display: flex;
   justify-content: space-around;
+}
+
+.social-links a {
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  transition: all .4s;
+}
+
+.social-links a:hover {
+  transform: scale(1.1);
+  border-radius: 100%;
+  background-color: var(--link-hover);
 }
 
 @media (max-width: 600px) {
