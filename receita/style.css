@@ -3,3 +3,80 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+:root {
+  --bg: #EAEAEA;
+  --bg-receita: #FFFFFF;
+  --hgroup: #1B1B1B;
+  --footer: #8F8F8F;
+  --textos: #39393A;
+}
+
+body * {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+.container {
+  margin: 2rem auto;
+  padding: 45px;
+  width: 900px;
+  background-color: var(--bg-receita);
+  border-radius: 0.625rem;
+}
+
+h1,
+h2 {
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+h1 {
+  font-size: 1.75rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+ul,
+ol {
+  line-height: 1.625rem;
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+ul,
+ol,
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: justify;
+}
+
+figure>img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 0.625rem;
+}
+
+figure>figcaption {
+  text-align: right;
+}
+
+figcaption {
+  font-size: 0.75rem;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 350px;
+  }
+}
