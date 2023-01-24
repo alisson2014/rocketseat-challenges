@@ -14,7 +14,7 @@
 
 ## 🚀 Tecnologias
 
-Aqui você encontrará projetos nivel iniciante, propostos pela plataforma de ensino Rocketseat, todos eles usam somente HTML e CSS.
+Aqui você encontrará dois projetos nivel iniciante, propostos pela plataforma de ensino Rocketseat, todos eles usam somente HTML e CSS. Os projetos também estão responsivos.
 
 ## 💻 Projetos
 
